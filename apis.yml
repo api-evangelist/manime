@@ -1,8 +1,24 @@
 aid: manime
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manime.png
 name: Manime
-description: Manime is a company surfaced as a portfolio company of canaan-partners, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'ManiMe (Manime) is a direct-to-consumer beauty company offering custom-fit
+  semi-cured gel manicure and pedicure kits. Customers scan their nails with a smartphone
+  and ManiMe manufactures made-to-measure gel nail sets shipped to the home for at-home
+  application. The company was backed by Canaan Partners and Techstars. As of this
+  enrichment pass the manime.co storefront (a Shopify store) returns HTTP 402 "Store
+  unavailable", indicating the store is currently closed or inactive. No public developer
+  API, API documentation, developer portal, SDKs, or webhook surface could be found.'
 url: https://raw.githubusercontent.com/api-evangelist/manime/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Beauty
+- Cosmetics
+- Ecommerce
+- Direct-to-Consumer
+- Custom Manufacturing
+- Nails
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/manime-domain-security.yml
 - type: Website
   url: https://manime.co/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
