@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: manime.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 06:04:53 2026 GMT
+  hsts: null
+domains:
+- domain: manime.co
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
