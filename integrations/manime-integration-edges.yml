@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/manime/integrations
+- https://n8n.io/integrations/manime/
+- https://composio.dev/toolkits/manime
+- https://monid.ai/tools/manime
+checked:
+- https://composio.dev/toolkits/manime
+- https://monid.ai/tools/manime
+- https://n8n.io/integrations/manime/
+- https://zapier.com/apps/manime/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
